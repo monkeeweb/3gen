@@ -1,0 +1,528 @@
+/* CSS Document */
+
+/* CSS básico */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EEEEEE;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666666;
+	font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #EC2028;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	color: #EC2028;
+	text-decoration: underline;
+}
+
+ul, ol, dl {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+h1 {
+	
+}
+
+h2 {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 7px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #999;
+}
+
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+/* ====================================================================
+	CONTAINER
+==================================================================== */
+
+#container {
+	position: relative;
+	width: 960px;
+	margin: auto;
+	margin-bottom: 100px;
+	background-color: #FFF;
+}
+
+#container_clear {
+	position: relative;
+	width: 960px;
+	height: 1px;
+	clear: both;
+}
+
+.espaco_hor_40px {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	clear: both;
+}
+
+/* ====================================================================
+	HEADER
+==================================================================== */
+
+header {
+	position: relative;
+	width: 960px;
+	height: 205px;
+}
+
+#header {
+	position: relative;
+	width: 960px;
+	height: 185px;
+}
+
+#edicao {
+	position: relative;
+	width: 950px;
+	height: 20px;
+	text-align: right;
+	color: #999;
+	font-size: 10px;
+	padding-right: 10px;
+}
+
+/* ====================================================================
+	LEFT COLUMN
+==================================================================== */
+
+#left_column {
+	position: relative;
+	width: 273px;
+	float: left;
+}
+
+#left_column p {
+	margin-bottom: 12px;
+}
+
+/* ====================================================================
+	MENU
+==================================================================== */
+
+nav {
+	position: relative;
+	width: 273px;
+	height: 322px;
+	margin: 0;
+	padding: 0;
+}
+
+#button-1 {
+	position: relative;
+	background-image: url(../images/layout/botao_editorial_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-1 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-1 a:hover img, #button-1 a:active img, #button-1 a:focus img {
+	visibility: hidden;
+}
+
+#button-2 {
+	position: relative;
+	background-image: url(../images/layout/botao_saw_recomenda_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-2 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-2 a:hover img, #button-2 a:active img, #button-2 a:focus img {
+	visibility: hidden;
+}
+
+#button-3 {
+	position: relative;
+	background-image: url(../images/layout/botao_email_leitor_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-3 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-3 a:hover img, #button-2 a:active img, #button-2 a:focus img {
+	visibility: hidden;
+}
+
+#button-4 {
+	position: relative;
+	background-image: url(../images/layout/botao_estudo_caso_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-4 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-4 a:hover img, #button-2 a:active img, #button-2 a:focus img {
+	visibility: hidden;
+}
+
+#button-5 {
+	position: relative;
+	background-image: url(../images/layout/botao_artigo_mes_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-5 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-5 a:hover img, #button-2 a:active img, #button-2 a:focus img {
+	visibility: hidden;
+}
+
+#button-6 {
+	position: relative;
+	background-image: url(../images/layout/botao_outlook_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-6 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-6 a:hover img, #button-2 a:active img, #button-2 a:focus img {
+	visibility: hidden;
+}
+
+#button-7 {
+	position: relative;
+	background-image: url(../images/layout/botao_em_numeros_over.jpg);
+	white-space: nowrap;
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-7 a {
+	width: 273px;
+	height: 46px;
+	float: left;
+}
+
+#button-7 a:hover img, #button-2 a:active img, #button-2 a:focus img {
+	visibility: hidden;
+}
+
+/* ====================================================================
+	CONTEÚDO DA COLUNA DA ESQUERDA
+==================================================================== */
+
+#botao_edicoes_anteriores {
+	position: relative;
+	width: 270px;
+	height: 120px;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#texto_3gen {
+	position: relative;
+	width: 233px;
+	padding: 0 20px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+#texto_saw {
+	position: relative;
+	width: 233px;
+	padding: 0 20px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+#cadastro {
+	position: relative;
+	width: 174px;
+	height: 44px;
+	padding: 0 49px 0 50px;
+}
+
+#botao_registro {
+	position: relative;
+	background-image: url(../images/layout/botao_registro_over.jpg);
+	white-space: nowrap;
+	width: 174px;
+	height: 44px;
+	float: left;
+}
+
+#botao_registro a {
+	width: 174px;
+	height: 44px;
+	float: left;
+}
+
+#botao_registro a:hover img, #botao_registro a:active img, #botao_registro a:focus img {
+	visibility: hidden;
+}
+
+/* ====================================================================
+	RIGHT COLUMN
+==================================================================== */
+
+#right_column {
+	position: relative;
+	width: 687px;
+	float: left;
+}
+
+#content_area {
+	position: relative;
+	width: 607px;
+	padding: 0 40px;
+}
+
+#content_title {
+	position: relative;
+	width: 607px;
+	height: 75px;
+}
+
+#content_text {
+	position: relative;
+	width: 607px;
+	text-align: justify;
+	line-height: 21px;
+}
+
+#content_text p {
+	margin-bottom: 21px;
+}
+
+.numero_destaque {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* ====================================================================
+	FOOTER
+==================================================================== */
+
+footer {
+	position: relative;
+	width: 960px;
+	height: 237px;
+}
+
+#footer_logos {
+	position: relative;
+	width: 960px;
+	height: 150px;
+	background: url(../images/layout/footer_fundo.jpg) no-repeat;
+}
+
+#logo_3gen {
+	position: relative;
+	width: 370px;
+	height: 150px;
+	float: left;
+}
+
+#tres_barras {
+	position: relative;
+	width: 220px;
+	height: 150px;
+	float: left;
+}
+
+#logos_apoio {
+	position: relative;
+	width: 370px;
+	height: 150px;
+	float: left;
+}
+
+#logos_apoio_titulo {
+	position: relative;
+	width: 280px;
+	height: 40px;
+	float: left;
+}
+
+.logos_apoio_logo {
+	position: relative;
+	width: 140px;
+	height: 55px;
+	float: left;
+}
+
+#logos_apoio_espaco {
+	position: relative;
+	width: 90px;
+	height: 150px;
+	float: left;
+}
+
+#redes_sociais {
+	position: relative;
+	width: 960px;
+	height: 87px;
+	background: url(../images/layout/redes_sociais_fundo.jpg) repeat-x;
+}
+
+#redes_sociais_titulo {
+	position: relative;
+	width: 960px;
+	height: 28px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+#redes_sociais_icones {
+	position: relative;
+	width: 960px;
+	height: 36px;
+	text-align: center;
+	padding: 0 354px;
+}
+
+.redes_sociais_icone {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	float: left;
+}
+
+/* ====================================================================
+	FORMULÁRIOS
+==================================================================== */
+
+#inputs label {
+	display: block;
+	width: 75px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: right;
+	padding-right: 20px;
+	clear: left;
+	color: #666;
+}
+
+#inputs input {
+	display: block;
+	width: 300px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#inputs input[type="submit"] {
+	width: 100px;
+	clear: left;
+	margin-left: 95px;
+}
+
+.tooltip {
+	background-color: #000;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	width: 200px;
+	display: none;
+	color: #fff;
+	text-align: left;
+	font-size: 12px;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+}
+
+.error input {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ED1C24;
+	background: #FFE6E7;
+}
+
+.iferror {
+	margin: 0;
+	display: none;
+}
+
+.error .iferror {
+	display: block;
+	color: #ED1C24;
+	font-size: 9px;
+	clear: left;
+	margin-left: 95px;
+}
+
+.hint {
+	color: #888;
+}

@@ -1,0 +1,1 @@
+alter table banner add column lang varchar(2) default 'br';

@@ -1,0 +1,70 @@
+.colT{
+  position:relative;
+}
+.colT p{
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+.colT strong, .colT img{
+  display: block;
+
+}
+.colT img{
+  float: left;
+  margin: 0px 15px 50px 0;
+}
+.colT .lastNews{
+  list-style: none;
+  padding: 0
+}
+
+.colT .lastNews li{
+  padding: 8px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.colT .lastNews a{
+  color: #888;
+}
+
+.colT .lastNews a .data{
+  color: #d71920;
+  display: block;
+}
+.colT .btRed, .colT .btRed:hover{
+  position: absolute;
+  top: 170px;
+  left: 108px;
+  color: #fff;
+}
+.colT.noticias .btRed{
+  left: 0px;
+}
+
+.artigos div.artigo{
+  margin-bottom: 50px;
+  clear: both;
+}
+.artigos h3{
+  font-size: 16px;
+  color: #494848;
+  line-height: 35px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 30px;
+}
+.artigos img{
+  width: 105px;
+  margin-right: 25px;
+  float: left;
+  margin-bottom: 20px;
+}
+.artigos a{
+  color:#d71920;
+}
+
+.topoTv{
+  margin:0;
+  background: url(../img/topo-tv.jpg) center top;
+  height: 154px;
+  margin-bottom: -20px;
+}
