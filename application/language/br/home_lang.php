@@ -1,28 +1,38 @@
 <?php
 
-$lang["3gen.title"] = "A 3GEN";
-$lang["3gen.desc"] = "Nossa história e nossa proposta de valor reafirmam o nosso compromisso em transformar sua estratégia em resultados.";
+$lang["box1.title"] = "A 3GEN";
+$lang["box1.subtitle"] = "Soluções efetivas que trazem resultados";
+$lang["box1.subtitle2"] = "Lorem ipsum dolor sit amet";
+$lang["box1.desc"] = "Lorem ipsum dolor sit amet, con ectetu adips cing elit. Morbi idtristique sem. Lorem ipsum dolor sit amet, con ectet radips cing elit. Morbi idtristique sem.";
 
-$lang["consultoria.title"] = "Consultoria";
-$lang["consultoria.desc"] = "Saiba como podemos acelerar o alcance dos resultados na sua organização por meio das nossas práticas de consultoria.";
+$lang["box2.title"] = "Nossas práticas";
+$lang["box2.subtitle"] = "Soluções efetivas que trazem resultados";
+$lang["box2.subtitle2"] = "Lorem ipsum dolor sit amet";
+$lang["box2.desc"] = "Lorem ipsum dolor sit amet, con ectetu adips cing elit. Morbi idtristique sem. Lorem ipsum dolor sit amet, con ectet radips cing elit. Morbi idtristique sem.";
 
-$lang["educacao.title"] = "Educação";
-$lang["educacao.desc"] = "Com o nosso portfólio de cursos e jogos de negócios, podemos preparar a sua equipe para o desafio de executar a estratégia.";
+$lang["box3.title"] = "Nossas expertises";
+$lang["box3.subtitle"] = "Soluções efetivas que trazem resultados";
+$lang["box3.subtitle2"] = "Lorem ipsum dolor sit amet";
+$lang["box3.desc"] = "Lorem ipsum dolor sit amet, con ectetu adips cing elit. Morbi idtristique sem. Lorem ipsum dolor sit amet, con ectet radips cing elit. Morbi idtristique sem.";
 
-$lang["cases.title"] = "Cases";
-$lang["cases.desc"] = "A experiência adquirida em cada projeto, nos torna mais preparados para enfrentar as dificuldades do dia a dia.";
+$lang["box4.title"] = "Educação";
+$lang["box4.subtitle"] = "Soluções efetivas que trazem resultados";
+$lang["box4.subtitle2"] = "Lorem ipsum dolor sit amet";
+$lang["box4.desc"] = "Lorem ipsum dolor sit amet, con ectetu adips cing elit. Morbi idtristique sem. Lorem ipsum dolor sit amet, con ectet radips cing elit. Morbi idtristique sem.";
 
-$lang["artigos.title"] = "Artigos";
-$lang["artigos.desc"] = "Acesse os estudos desenvolvidos por nossa equipe e colaboradores, sobre as diversas disciplinas da gestão da estratégia.";
+$lang["box5.title"] = "Publicações";
 
-$lang["noticias.title"] = "Notícias";
-$lang["noticias.desc"] = "Saiba onde a 3GEN é destaque e fique por dentro das últimas informações sobre nossas atividades.";
+$lang["box6.title"] = "Strategy TV";
+$lang["box6.subtitle"] = "Vamos analisar a estratégia?";
+$lang["box6.desc"] = "Lorem ipsum dolor sit amet, con ecteturadips cing elit. Morbi idtristique sem.";
 
-$lang["blog.title"] = "Blog";
-$lang["blog.desc"] = "O blog Execução da Estratégia é um espaço para inovar, discutir e explorar conceitos essenciais para a sua organização.";
+$lang["box7.title"] = "Blog";
+$lang["box7.subtitle"] = "Vamos analisar a estratégia?";
+$lang["box7.desc"] = "Lorem ipsum dolor sit amet, con ecteturadips cing elit. Morbi idtristique sem.";
 
-$lang["estrategia.title"] = "Strategy Execution TV";
-$lang["estrategia.desc"] = "No nosso canal exclusivo você encontra um acervo de vídeos com insights e conhecimento.";
+$lang["box8.title"] = "Diagnóstico";
+$lang["box8.subtitle"] = "Vamos analisar a estratégia?";
+$lang["box8.desc"] = "Lorem ipsum dolor sit amet, con ecteturadips cing elit. Morbi idtristique sem.";
 
-$lang["diagnostico.title"] = "Diagnóstico";
-$lang["diagnostico.desc"] = "Estamos desenvolvendo uma nova ferramenta de diagnóstico. Enquanto trabalhamos, acesse os últimos estudos.";
+
+

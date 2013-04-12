@@ -130,7 +130,8 @@ td { vertical-align: top; }
 .darkBg{
   width:100%;
   background: url(../img/darkBg.jpg) center top;
-
+  margin-top:60px;
+  padding-bottom:60px;
 }
 footer{
   height: 50px;
@@ -222,12 +223,12 @@ footer .by-monkee{
 
 .colHome{
   float:left;
-  width:274px;
-  padding:40px 88px 0 0;
+  width:226px;
+  padding:40px 24px 0 0;
+  position:relative;
 
 }
 .colHome.last{
-  width:273px;
   padding-right:0;
 }
 .colHome h2{
@@ -238,18 +239,68 @@ footer .by-monkee{
   margin: 0;
   position: relative;
   display: inline-block;
-  padding-right: 27px;
+}
+.colHome h2.with-arrow{
+  padding-right:40px;
+  margin-bottom:20px;
+  min-width:82px;
+}
+.colHome h5{
+  color:#b7b7b7;
+  font-weight: normal;
+  font-size: 11px;
+  margin: 0;
+  position: relative;
+  display: inline-block;
 }
 .colHome p{
-  color:#333;
+  color:#868686;
   font-size:12px;
   margin: 0;
-  margin-bottom:25px;
-
+}
+.colHome p.subtitle{
+  font-weight:bold;
+  color:#494949
 }
 .colHome img{
-  margin: 0 0 10px -25px; 
+  margin: 22px 0 22px 0; 
 }
+.colHome img.in-column{
+  margin:0 10px 0 0;
+  float:left
+}
+
+.colHome a.bt-vermais{
+  background:#c60003;
+  color:#fff;
+  font-size:10px;
+  display:block;
+  padding:5px 10px;
+  width:49px;
+  border-radius:5px;
+  position:absolute;
+  left:102px;
+  bottom:0;
+}
+
+.mural-publicacoes{height:194px}
+.mural-publicacoes p{
+  font-size:12px;
+  color:#868686;
+  position:relative;
+}
+.mural-publicacoes span{
+  font-size:10px;
+  color:#c60003
+}
+.mural-publicacoes div{
+  padding:4px 0 1px;
+  border-bottom:1px dashed #d3d4d4
+}
+.mural-publicacoes div.no-border{border:0}
+.mural-publicacoes a.bt-vermais{left:0}
+
+
 .btRed, .btRed:visited{
   display: inline-block;
   padding:0 5px;

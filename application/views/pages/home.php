@@ -24,89 +24,86 @@
 	<div class="container clearfix">
 		<div class="colHome">
 			<a href="<?php echo base_url();?>index.php/3gen">
-				<h2><?php echo $this->lang->line('3gen.title'); ?><span></span></h2>
-				<img src="<?php echo base_url();?>/img/a3gen.png">
-				<p><?php echo $this->lang->line('3gen.desc'); ?></p>
+				<h2><?php echo $this->lang->line('box1.title'); ?></h2>
+				<h5><?php echo $this->lang->line('box1.subtitle'); ?></h5>
+				<img src="<?php echo base_url();?>img/img-home-test.jpg" />
+				<p class="subtitle"><?php echo $this->lang->line('box1.subtitle2'); ?></p>
+				<p><?php echo $this->lang->line('box1.desc'); ?></p>
 			</a>
 		</div>
 		<div class="colHome">
-			<a href="<?php echo base_url();?>index.php/consultoria">
-				<h2><?php echo $this->lang->line('consultoria.title'); ?><span></span></h2>
-				<img src="<?php echo base_url();?>/img/consultoria.png">
-				<p><?php echo $this->lang->line('consultoria.desc'); ?></p>
+			<a href="">
+				<h2><?php echo $this->lang->line('box2.title'); ?></h2>
+				<h5><?php echo $this->lang->line('box2.subtitle'); ?></h5>
+				<img src="<?php echo base_url();?>img/img-home-test.jpg" />
+				<p class="subtitle"><?php echo $this->lang->line('box2.subtitle2'); ?></p>
+				<p><?php echo $this->lang->line('box2.desc'); ?></p>
 			</a>
 		</div>
+		<div class="colHome">
+			<a href="">
+				<h2><?php echo $this->lang->line('box3.title'); ?></h2>
+				<h5><?php echo $this->lang->line('box3.subtitle'); ?></h5>
+				<img src="<?php echo base_url();?>img/img-home-test.jpg" />
+				<p class="subtitle"><?php echo $this->lang->line('box3.subtitle2'); ?></p>
+				<p><?php echo $this->lang->line('box3.desc'); ?></p>
+			</a>
+		</div>
+		
 		<div class="colHome last">
 			<a href="<?php echo base_url();?>index.php/educacao">
-				<h2><?php echo $this->lang->line('educacao.title'); ?><span></span></h2>
-				<img src="<?php echo base_url();?>/img/educacao.png">
-				<p><?php echo $this->lang->line('educacao.desc'); ?></p>
-			</a>
-		</div>
-
-		<div class="colHome">
-			<div>
-				<a href="<?php echo base_url();?>index.php/cases">
-					<h2><?php echo $this->lang->line('cases.title'); ?><span></span></h2>
-					<img src="<?php echo base_url();?>/img/cases.png">
-					<p><?php echo $this->lang->line('cases.desc'); ?></p>
-				</a>
-			</div>
-		</div>
-		<div class="colHome">
-			<div>
-				<a href="<?php echo base_url();?>index.php/artigos">
-					<h2><?php echo $this->lang->line('artigos.title'); ?><span></span></h2>
-					<img src="<?php echo base_url();?>/img/artigos.png">
-					<p><?php echo $this->lang->line('artigos.desc'); ?></p>
-				</a>				
-			</div>
-		</div>
-		<div class="colHome noticias last">
-			<div>
-				<a href="<?php echo base_url();?>index.php/noticias">
-					<h2><?php echo $this->lang->line('noticias.title'); ?><span></span></h2>
-					<img src="<?php echo base_url();?>/img/noticias.png">
-					<p><?php echo $this->lang->line('noticias.desc'); ?></p>
-				</a>	
-				<!--
-				<h2>Notícias<span></span></h2>
-				<ul class="lastNews">
-				<php if(isset($lastNews)) { (falta o ? antes de php)
-					$i=0;
-					foreach ($lastNews as $new){
-						if($i==2) break;
-  						$i++;
-						echo '<li><a href="'.  base_url() . 'index.php/noticias/' .$new['id'] . '">' .$new['title'];
-						echo '<span class="data">' .$new['data']. '</span></a></li>';
-					}
-				}?></ul>
-				<a href="<?php echo base_url();?>index.php/noticias" class="btRed">Ver mais</a>
-				-->
-			</div>
+				<h2><?php echo $this->lang->line('box4.title'); ?></h2>
+				<h5><?php echo $this->lang->line('box4.subtitle'); ?></h5>
+				<img src="<?php echo base_url();?>img/img-home-test.jpg" />
+				<p class="subtitle"><?php echo $this->lang->line('box4.subtitle2'); ?></p>
+				<p><?php echo $this->lang->line('box4.desc'); ?></p>
+			</a>		    
 		</div>
 	</div>
 	<div class="darkBg clearfix">
 		<div class="container clearfix">
-			<div class="colHome">
-				<a href="http://www.execucaodaestrategia.com.br/" target="_blank">
-				<h2><?php echo $this->lang->line('blog.title'); ?><span></span></h2>
-					<img src="<?php echo base_url();?>/img/blog.png">
-					<p><?php echo $this->lang->line('blog.desc'); ?></p>
-				</a>				
+			<div class="colHome mural-publicacoes">
+				<a href="">
+				    <h2 class="with-arrow"><?php echo $this->lang->line('box5.title'); ?><span></span></h2>
+				</a>
+				
+				<div><a href="">
+				    <p>Fusce condimentum dui at lacus molee. Donec ullamcorper molestie aliquam.</p>
+				    <span>12 de abril de 2013</span>
+				</a></div>
+				
+				<div class="no-border"><a href="">
+				    <p>Fusce condimentum dui at lacus molee. Donec ullamcorper molestie aliquam.</p>
+				    <span>12 de abril de 2013</span>
+				</a></div>
+				
+				<a href="" class="bt-vermais">VER MAIS</a>
 			</div>
 			<div class="colHome">
 				<a href="http://www.youtube.com/user/StrategyExecutionTv" target="_blank">
-					<h2><?php echo $this->lang->line('estrategia.title'); ?><span></span></h2>
-					<img src="<?php echo base_url();?>/img/tv.png">
-					<p><?php echo $this->lang->line('estrategia.desc'); ?></p>
+					<h2 class="with-arrow"><?php echo $this->lang->line('box6.title'); ?><span></span></h2>
+					<img src="<?php echo base_url();?>img/img-home-test-2.jpg" alt="" class="in-column" />
+					<p class="subtitle"><?php echo $this->lang->line('box6.subtitle'); ?></p>
+					<p><?php echo $this->lang->line('box6.desc'); ?></p>
+					<a href="" class="bt-vermais">VER MAIS</a>
 				</a>								
 			</div>
+			<div class="colHome">
+				<a href="http://execucaodaestrategia.com.br/" target="_blank">
+					<h2 class="with-arrow"><?php echo $this->lang->line('box7.title'); ?><span></span></h2>
+					<img src="<?php echo base_url();?>img/img-home-test-2.jpg" alt="" class="in-column" />
+					<p class="subtitle"><?php echo $this->lang->line('box7.subtitle'); ?></p>
+					<p><?php echo $this->lang->line('box7.desc'); ?></p>
+					<a href="" class="bt-vermais">VER MAIS</a>
+				</a>					
+			</div>
 			<div class="colHome last">
-				<a href="<?php echo base_url();?>/pdfs/evolucao-da-gestao-estrategica-nas-organizacoes-brasileiras.pdf" target="_blank">
-				<h2><?php echo $this->lang->line('diagnostico.title'); ?><span></span></h2>
-					<img src="<?php echo base_url();?>/img/diagnostico.png">
-					<p><?php echo $this->lang->line('diagnostico.desc'); ?></p>
+				<a href="http://www.3gen.com.br//pdfs/evolucao-da-gestao-estrategica-nas-organizacoes-brasileiras.pdf" target="_blank">
+					<h2 class="with-arrow"><?php echo $this->lang->line('box8.title'); ?><span></span></h2>
+					<img src="<?php echo base_url();?>img/img-home-test-2.jpg" alt="" class="in-column" />
+					<p class="subtitle"><?php echo $this->lang->line('box8.subtitle'); ?></p>
+					<p><?php echo $this->lang->line('box8.desc'); ?></p>
+					<a href="" class="bt-vermais">VER MAIS</a>
 				</a>					
 			</div>
 		</div>

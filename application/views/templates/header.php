@@ -21,7 +21,7 @@
 	<meta name="viewport" content="width=1050, maximum-scale=0.8" />
 
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bg-slider.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style2.css">
 	<link rel="shortcut icon" href="<?php echo base_url();?>img/favicon.ico" />	
 
